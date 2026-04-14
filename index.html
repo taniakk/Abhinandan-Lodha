@@ -280,75 +280,80 @@
   <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
 
     <!-- IMAGE SIDE -->
-    <div class="relative">
-
+    <div class="relative group">
       <div class="rounded-3xl overflow-hidden shadow-2xl">
         <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2"
-             alt="2BHK Flat Interior"
-             class="w-full h-[500px] object-cover">
+             alt="Flats Interior"
+             class="w-full h-[520px] object-cover transform group-hover:scale-105 transition duration-700">
       </div>
 
-      <!-- Floating Badge -->
-      <div class="absolute -bottom-10 -right-10 bg-white/80 backdrop-blur-xl border border-green-100 rounded-2xl p-6 w-64 hidden md:block shadow-lg">
-        <p class="text-green-700 font-bold text-lg">Trusted Growth</p>
-        <p class="text-gray-600 text-sm mt-2">
-          Leading real estate brand delivering high-value investment opportunities across India.
-        </p>
-      </div>
+      <!-- Gradient Overlay -->
+      <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent rounded-3xl"></div>
 
+      <!-- Text Overlay -->
+      <div class="absolute bottom-6 left-6 text-white">
+        <p class="text-sm opacity-80">Premium Living</p>
+        <h3 class="text-2xl font-semibold">Modern Smart Homes</h3>
+      </div>
     </div>
 
     <!-- CONTENT SIDE -->
     <div>
 
       <h2 class="text-4xl md:text-5xl font-bold mb-6 leading-tight text-gray-800">
-        Building Trust. <br>
-        Delivering Growth Homes.
+        Choose Your Perfect Home
       </h2>
 
-      <p class="text-gray-600 text-lg mb-8">
-        We are one of India’s fastest-growing real estate brands focused on premium
-        residential developments and high-value investment opportunities.
+      <p class="text-gray-600 text-lg mb-10">
+        Designed with modern lifestyles in mind, our homes offer the perfect blend
+        of comfort, elegance, and smart investment value.
       </p>
 
-      <!-- Stats -->
-      <div class="grid grid-cols-2 gap-6 mb-10">
+      <!-- Flat Cards -->
+      <div class="grid md:grid-cols-2 gap-8">
 
-        <div class="bg-white border border-green-100 rounded-2xl p-5 shadow-sm">
-          <p class="text-2xl font-bold text-green-600">1000+ Acres</p>
-          <p class="text-gray-500 text-sm">Land Acquired</p>
+        <!-- 1BHK -->
+        <div class="relative p-[1px] rounded-2xl bg-gradient-to-br from-green-200 via-white to-green-300 hover:scale-105 transition duration-300">
+          <div class="bg-white/80 backdrop-blur-xl rounded-2xl p-6 shadow-md h-full">
+
+            <h3 class="text-xl font-bold text-green-700 mb-1">1 BHK</h3>
+            <p class="text-gray-800 text-lg font-semibold">(323 sq.ft.)</p>
+
+            <div class="w-10 h-[2px] bg-green-500 my-3"></div>
+
+            <p class="text-gray-600 text-sm">
+              Ideal for individuals and couples seeking a compact, efficient,
+              and stylish living space.
+            </p>
+
+          </div>
         </div>
 
-        <div class="bg-white border border-green-100 rounded-2xl p-5 shadow-sm">
-          <p class="text-2xl font-bold text-green-600">7500+</p>
-          <p class="text-gray-500 text-sm">Happy Customers</p>
+        <!-- 2BHK -->
+        <div class="relative p-[1px] rounded-2xl bg-gradient-to-br from-green-200 via-white to-green-300 hover:scale-105 transition duration-300">
+          <div class="bg-white/80 backdrop-blur-xl rounded-2xl p-6 shadow-md h-full">
+
+            <h3 class="text-xl font-bold text-green-700 mb-1">2 BHK</h3>
+            <p class="text-gray-800 text-lg font-semibold">(485 sq.ft.)</p>
+
+            <div class="w-10 h-[2px] bg-green-500 my-3"></div>
+
+            <p class="text-gray-600 text-sm">
+              Spacious homes crafted for families, offering comfort,
+              functionality, and a premium lifestyle.
+            </p>
+
+          </div>
         </div>
-
-        <div class="bg-white border border-green-100 rounded-2xl p-5 shadow-sm">
-          <p class="text-2xl font-bold text-green-600">34+ Mn Sq.ft</p>
-          <p class="text-gray-500 text-sm">Under Development</p>
-        </div>
-
-        <div class="bg-white border border-green-100 rounded-2xl p-5 shadow-sm">
-          <p class="text-2xl font-bold text-green-600">48 Cities</p>
-          <p class="text-gray-500 text-sm">Expansion Vision</p>
-        </div>
-
-      </div>
-
-      <!-- Project Info -->
-      <div class="mb-8 text-gray-600 space-y-2 text-sm">
-
-        <p>✔ India’s largest land buyer in 2024</p>
-        <p>✔ 18+ projects across Maharashtra, Goa, U.P, H.P & Punjab</p>
-        <p>✔ Premium residential growth homes with high ROI</p>
 
       </div>
 
       <!-- CTA -->
-      <button class="px-8 py-3 rounded-full bg-green-600 hover:bg-green-700 transition font-semibold text-lg shadow-lg hover:shadow-green-500/30 text-white">
-        Register with ₹999
-      </button>
+      <div class="mt-12">
+        <button class="px-10 py-3 rounded-full bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 transition font-semibold text-lg shadow-lg hover:shadow-green-500/30 text-white tracking-wide">
+          Register with ₹999
+        </button>
+      </div>
 
     </div>
 
