@@ -90,17 +90,24 @@
 
 
 <!-- Hero Section  -->
-<section id="home" class="w-full md:min-h-screen relative  md:pt-20 md:py-20">
-  <div
-    class="relative h-[60vh] mt-0 lg:mt-4 w-full md:h-[80vh]
-           bg-contain md:bg-cover
-           bg-no-repeat bg-center md:bg-[center_top]
-           overflow-hidden
-           bg-[url('/images/mobile-amitabh.jpeg')] 
-           md:bg-[url('/images/amitabh1.jpg')]"
-  >
-    <div class="absolute inset-0"></div>
+<section id="home" class="w-full md:min-h-screen relative mt-20 lg:mt-4  md:pt-20 md:py-20">
+  
+  <div class="w-full flex justify-center items-center bg-white">
+    
+    <!-- Mobile Image -->
+    <img 
+      src="/images/mobile-amitabh.jpeg"
+      class="w-full h-auto max-h-[70vh] object-contain md:hidden"
+    />
+
+    <!-- Desktop Image -->
+    <img 
+      src="/images/amitabh1.jpg"
+      class="w-full h-auto max-h-[80vh] object-contain hidden md:block"
+    />
+
   </div>
+
 </section>
 
 <!-- Flat Details -->
