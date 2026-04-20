@@ -92,13 +92,26 @@
 <!-- Hero Section  -->
 <section id="home" class="w-full md:min-h-screen relative mt-20 lg:mt-4  md:pt-20 md:py-20">
   
-  <div class="w-full flex justify-center items-center bg-white">
+  <div class="w-full flex flex-col justify-center items-center bg-white">
     
-    <!-- Mobile Image -->
+   <!-- Mobile Images Container -->
+<div class="md:hidden flex flex-col justify-start items-start w-full p-0 m-0">
+
+  <!-- First Image (logo at top) -->
+  <div class="w-full flex justify-start">
     <img 
-      src="/images/mobile-amitabh.jpeg"
-      class="w-full h-auto max-h-[70vh] object-contain md:hidden"
+      src="/images/mobile-growthlogo.jpeg"
+      class="w-auto max-h-[10vh] object-contain"
     />
+  </div>
+
+  <!-- Second Image -->
+  <img 
+    src="/images/mobile-amitabhbachan.jpeg"
+    class="w-full max-h-[70vh] object-contain"
+  />
+
+</div>
 
     <!-- Desktop Image -->
     <img 
